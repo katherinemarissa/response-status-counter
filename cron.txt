@@ -1,1 +1,2 @@
-0 * * * * /path/to/counter.sh /path/to/apache_logs.txt #this cron job runs the bash script counter.sh every hour and takes apache_logs.txt as an input parameter for the script
+#this cron job runs the bash script counter.sh every hour and takes apache_logs.txt as an input parameter for the script
+0 * * * * /path/to/counter.sh /path/to/apache_logs.txt
